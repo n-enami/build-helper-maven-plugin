@@ -20,10 +20,10 @@ on:
   push:
     branches:
       - master
-      - '*'
+      - '**'
   pull_request:
     branches:
-      - '*'
+      - '**'
 
 jobs:
   linux:
